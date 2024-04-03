@@ -1,10 +1,19 @@
 body{
     background-color: orange;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: black;
     color: white;
+    display: flex;
+    justify-content: center;
+    height: 80px;
 }
 footer{
     background-color: black;
+    display: flex;
+    justify-content: center;   
+    height: 50px;
+    color: white; 
 }
