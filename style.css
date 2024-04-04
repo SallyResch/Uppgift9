@@ -1,0 +1,12 @@
+body{
+
+    background-image: url('/groceries.jpeg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+#itemContainer{
+    width: 120px;
+    background-color: green;
+}
