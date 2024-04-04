@@ -13,31 +13,34 @@
     <div class="container" id="rulesHowTo">
         <div id="howTo">
             <h2>How to do: </h1>
-            <p>Lorem ipsum dolor sit amet, 
-                consectetur adipisicing elit. 
-                Velit consequuntur quam corrupti 
-                voluptatibus iusto, praesentium eligendi 
-                aliquid laborum quisquam eos impedit 
-                eveniet commodi nulla quo, 
-                tempora ipsa possimus nam aliquam.</p>
+            <ol>
+                <li>Choose a positive number to end BishBosh</li>
+                <li>Choose a positive number to be the divisable number that prints out Bish</li>
+                <li>Choose another positive number to be the divisable number that prints out Bosh</li>
+            </ol>
         </div>
         <div id="rules">
-            <h2>Regler för BishBosh:</h2>
-            <p>Bish-Bosh listar alla tal mellan 1 och 100, men vissa undantag: Om talet är jämnt delbart 
-                med 3 listas 'Bish' istället för talet. Om talet är jämnt delbart med 4 listas ‘Bosh​’ istället för 
-                talet. Om talet är jämnt delbart med både med 3 och 4 skrivs “Bish-Bosh​” istället för talet. 
-                
-                Utskrifts Exempel: 
-                1, 2, Bish​, Bosh​, 5, Bish​, 7, Bosh​, Bish​, 10, 11, Bish-Bosh​, 13, 14, Bish ​ [...]</p>
+            <h2>Rules for BishBosh:</h2>
+            <p>
+                Bish-Bosh lists all numbers between 1 and 100, with some exceptions: 
+                If the number is divisible by 3, 'Bish' is listed instead of the number. 
+                If the number is divisible by 4, 'Bosh' is listed instead of the number. 
+                If the number is divisible by both 3 and 4, "Bish-Bosh" is listed instead of the number. 
+                Output Example: 1, 2, Bish, Bosh, 5, Bish, 7, Bosh, Bish, 10, 11, Bish-Bosh, 13, 14, Bish, [...]</p>
         </div>
     </div>
     <div class="container">
     <label for="endNumber">End number:</label>
-    <input type="text" id="endNumber">
+    <input type="text" id="endNumber" name="endNumber" placeholder="ex.150" value="">
     <label for="bish">Bish number:</label>
-    <input type="text" id="bish">
+    <input type="text" id="bish" name="bish" placeholder="ex.2" value="">
     <label for="bosh">Bosh number:</label>
-    <input type="text" id="bosh">
+    <input type="text" id="bosh" name="bosh" placeholder="ex.6" value="">
+    <input type="submit"  value="Generate BishBosh">
+    </div>
+    <div class="container">
+        <h2>BishBosh Sequence:</h2>
+        <ol id="results"></ol>
     </div>
     <footer>
         <h3>Webmaster: Sally Resch</h3>

@@ -11,13 +11,32 @@ header{
     height: 80px;
 }
 .container{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 #rulesHowTo{
     flex-direction: row;
+    align-items: flex-start;
+    margin:2em 0 0 2em;
+}
+ol{
+    width:20em;
+    margin: 0;
+    padding: 0;
+}
+p{
+    width: 20em;
+}
+#howTo{
+    margin-right: 1em;
+}
+#rules{
+    margin-left: 1em;
+}
+label{
+display: flex;
 }
 footer{
     background-color: black;
@@ -25,4 +44,5 @@ footer{
     justify-content: center;   
     height: 50px;
     color: white; 
+
 }
