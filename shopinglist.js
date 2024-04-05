@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     addItemButton.addEventListener('click', function () {
         const itemText = document.getElementById('addItem').value.trim();
         if (itemText !== '') {
-            const newItem = document.createElement('li');
+            const newItem = document.createElement('li', 'd-flex', 'justify-content-between');
             const checkbox = document.createElement('input');
             const deleteButton = document.createElement('button');
             const label = document.createElement('label');
