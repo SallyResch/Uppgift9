@@ -4,9 +4,15 @@ body{
     background-position: center; 
     background-repeat: no-repeat;
     overflow-x: hidden;
-    height: auto;
+}
+#listBackground{
+    min-width: 300px;
 }
 #itemContainer{
-    width: 120px;
-    background-color: green;
+    min-width: 200px;
+}
+#itemList{
+    min-width: 200;
+    width: 200px;
+    min-height: 300px;
 }
