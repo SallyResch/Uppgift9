@@ -36,5 +36,3 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
-
-//ADD PROGRESSBAR: Every item becomes a "slot" in the progressbar. When you later cross something of the progress bar should access for every item crossed of the list
