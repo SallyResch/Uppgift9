@@ -2,7 +2,6 @@ body{
     background-image: url('/groceries.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 #listBackground{
     min-width: 300px;
@@ -14,4 +13,8 @@ body{
     min-width: 200px;
     max-width: 500px;
     min-height: 300px;
+}
+
+.list-group-item label {
+    margin-right: 10px; /* Adjust as needed */
 }
